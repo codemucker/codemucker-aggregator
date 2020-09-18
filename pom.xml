@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.codemucker</groupId>
+	<artifactId>codemucker-aggregator</artifactId>
+	<version>0.2-SNAPSHOT</version>
+
+	<name>org.codemucker - Aggregator</name>
+
+	<packaging>pom</packaging>
+	<scm>
+       <developerConnection>scm:git:git@github.com:codemucker/root.git</developerConnection>
+      <tag>v0.1</tag>
+  </scm>
+  <modules>
+    <module>codemucker-lang</module>
+<!--    <module>codemucker-jproperty</module>-->    
+    <module>codemucker-csv</module>    
+    <module>codemucker-parent</module>
+    <module>codemucker-jtest</module>
+    <module>codemucker-jfind</module>
+    <module>codemucker-jmutate</module>
+    <module>codemucker-jpattern</module>
+    <module>codemucker-testfirst</module>
+    <module>codemucker-jmatch</module>
+    <module>codemucker-testserver</module>
+    <!--<module>codemucker-gwt-generate</module>-->
+    <module>jmutate-maven-plugin</module>
+   <!-- <module>codemucker-cqrs</module>-->
+  </modules>
+
+</project>
